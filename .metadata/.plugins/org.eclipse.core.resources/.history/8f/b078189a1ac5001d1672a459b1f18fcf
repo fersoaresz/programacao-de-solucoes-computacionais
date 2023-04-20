@@ -1,0 +1,27 @@
+package meuprimeiroprojetonoeclipse;
+
+public class Teste123 {
+	import math
+
+	# Definir a função que calcula a fórmula de Bhaskara
+	def calcula_bhaskara(a, b, c):
+	    delta = b**2 - 4*a*c
+	    if delta < 0:
+	        return "Não há raízes reais"
+	    elif delta == 0:
+	        x = -b / (2*a)
+	        return "Há uma raiz real: x = {}".format(x)
+	    else:
+	        x1 = (-b + math.sqrt(delta)) / (2*a)
+	        x2 = (-b - math.sqrt(delta)) / (2*a)
+	        return "Há duas raízes reais: x1 = {}, x2 = {}".format(x1, x2)
+
+	# Pedir os coeficientes a, b e c ao usuário
+	a = float(input("Digite o coeficiente a: "))
+	b = float(input("Digite o coeficiente b: "))
+	c = float(input("Digite o coeficiente c: "))
+
+	# Calcular a fórmula de Bhaskara e imprimir o resultado
+	resultado = calcula_bhaskara(a, b, c)
+	print(resultado)
+}
