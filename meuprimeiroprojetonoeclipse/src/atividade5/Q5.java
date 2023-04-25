@@ -7,7 +7,7 @@ public class Q5 {
         int numero, menor = Integer.MAX_VALUE, maior = Integer.MIN_VALUE;
         
         while (true) {
-            System.out.print("Informe um número inteiro (ou 0 para sair): ");
+            System.out.print("Informe um numero inteiro (ou 0 para sair): ");
             numero = scanner.nextInt();
             
             if (numero == 0) {
@@ -24,10 +24,10 @@ public class Q5 {
         }
         
         if (menor == Integer.MAX_VALUE || maior == Integer.MIN_VALUE) {
-            System.out.println("Nenhum número foi informado!");
+            System.out.println("Nenhum numero foi informado!");
         } else {
-            System.out.println("Menor número informado: " + menor);
-            System.out.println("Maior número informado: " + maior);
+            System.out.println("Menor numero informado: " + menor);
+            System.out.println("Maior numero informado: " + maior);
         }
         
         scanner.close();

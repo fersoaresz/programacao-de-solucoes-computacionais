@@ -8,7 +8,7 @@ public class Q4 {
 		    int idade, somaIdades = 0, contador = 0;
 		    double mediaIdades;
 
-		    System.out.println("Digite as idades (digite um número negativo para sair):");
+		    System.out.println("Digite as idades (digite um numero negativo para sair):");
 
 		    while (true) {
 		      idade = input.nextInt();
@@ -25,7 +25,7 @@ public class Q4 {
 		      System.out.println("Nenhuma idade foi informada.");
 		    } else {
 		      mediaIdades = (double) somaIdades / contador;
-		      System.out.printf("A média das idades informadas é %.2f", mediaIdades);
+		      System.out.printf("A media das idades informadas e %.2f", mediaIdades);
 		    }
 		  }
 		}

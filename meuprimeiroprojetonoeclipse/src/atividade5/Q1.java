@@ -8,6 +8,6 @@ public class Q1 {
             soma += i;
         }
         
-        System.out.println("A soma dos números inteiros entre 7 e 20 é: " + soma);
+        System.out.println("A soma dos números inteiros entre 7 e 20 e: " + soma);
     }
 }

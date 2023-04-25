@@ -8,16 +8,16 @@ public class Q2  {
 		      int num1, num2;
 		      
 		      do {
-		         System.out.print("Informe o primeiro número inteiro positivo: ");
+		         System.out.print("Informe o primeiro numero inteiro positivo: ");
 		         num1 = entrada.nextInt();
 		      } while (num1 <= 0);
 		      
 		      do {
-		         System.out.print("Informe o segundo número inteiro positivo: ");
+		         System.out.print("Informe o segundo numero inteiro positivo: ");
 		         num2 = entrada.nextInt();
 		      } while (num2 <= 0);
 		      
-		      System.out.print("Os números inteiros entre " + num1 + " e " + num2 + " são: ");
+		      System.out.print("Os numeros inteiros entre " + num1 + " e " + num2 + " são: ");
 		      
 		      if (num1 < num2) {
 		         for (int i = num1 + 1; i < num2; i++) {

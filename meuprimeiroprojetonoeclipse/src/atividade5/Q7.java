@@ -7,13 +7,13 @@ public class Q7 {
         
         int num, maior, menor;
         
-        System.out.println("Digite o 1º número:");
+        System.out.println("Digite o 1º numero:");
         num = input.nextInt();
         maior = num;
         menor = num;
         
         for(int i = 2; i <= 10; i++) {
-            System.out.println("Digite o " + i + "º número:");
+            System.out.println("Digite o " + i + "º numero:");
             num = input.nextInt();
             
             if(num > maior) {
@@ -25,8 +25,8 @@ public class Q7 {
             }
         }
         
-        System.out.println("Maior número informado: " + maior);
-        System.out.println("Menor número informado: " + menor);
+        System.out.println("Maior numero informado: " + maior);
+        System.out.println("Menor numero informado: " + menor);
         
         input.close();
     }

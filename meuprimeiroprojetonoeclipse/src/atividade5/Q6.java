@@ -15,7 +15,7 @@ public class Q6 {
         }
 
         double media = soma / 10.0;
-        System.out.println("A média das idades é: " + media);
+        System.out.println("A media das idades é: " + media);
 
         input.close();
     }

@@ -25,7 +25,7 @@ public class Q911 {
                 }
             }
         }
-        System.out.printf("Número de homens com peso entre 60 e 80 kg: %d\n", contMasc60a80);
-        System.out.printf("Número de mulheres com peso entre 50 e 70 kg: %d\n", contFem50a70);
+        System.out.printf("Numero de homens com peso entre 60 e 80 kg: %d\n", contMasc60a80);
+        System.out.printf("Numero de mulheres com peso entre 50 e 70 kg: %d\n", contFem50a70);
     }
 }
