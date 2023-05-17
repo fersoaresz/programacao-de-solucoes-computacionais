@@ -49,12 +49,12 @@ public class Q1 {
         Scanner entrada = new Scanner(System.in);
 
         while (true) {
-            System.out.println("Escolha o método de ordenação:");
-            System.out.println("1. Ordenação Bolha");
-            System.out.println("2. Ordenação por Seleção");
-            System.out.println("3. Ordenação por Inserção");
+            System.out.println("Escolha o metodo de ordenacao:");
+            System.out.println("1. Ordenacao Bolha");
+            System.out.println("2. Ordenacao por Selecao");
+            System.out.println("3. Ordenacao por Insercao");
             System.out.println("4. Sair");
-            System.out.print("Opção: ");
+            System.out.print("Opcao: ");
             int opcao = entrada.nextInt();
 
             if (opcao == 4) {
@@ -62,7 +62,7 @@ public class Q1 {
                 break;
             }
 
-            System.out.println("Digite 10 números inteiros:");
+            System.out.println("Digite 10 numeros inteiros:");
             int[] vetor = new int[10];
             for (int i = 0; i < 10; i++) {
                 vetor[i] = entrada.nextInt();
@@ -79,7 +79,7 @@ public class Q1 {
                     ordenarInsercao(vetor);
                     break;
                 default:
-                    System.out.println("Opção inválida!");
+                    System.out.println("Opção invalida!");
                     continue;
             }
 
